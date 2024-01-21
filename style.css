@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('back.jpg'); /* Ganti 'nama-gambar.jpg' dengan nama file gambar Anda */
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed; /* Background tetap saat menggulir halaman */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(123, 38, 168);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #cc00ff;
+}
+
+h2 {
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.biodata {
+  list-style: none;
+  padding: 0;
+}
+
+.biodata li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.biodata li:before {
+  content: "\2022"; /* Unicode untuk simbol titik bullet */
+  color: #007BFF;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+/* Style untuk container "pas" */
+.pas {
+  text-align: center; /* Pusatkan teks */
+  margin: 20px; /* Atur margin sesuai kebutuhan */
+}
+
+/* Style untuk judul "h2" */
+.pas h2 {
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style untuk gambar */
+.pas img {
+  width: 100%; /* Gambar mengisi lebar container */
+  max-width: 400px; /* Lebar maksimum gambar */
+  height: auto; /* Sesuaikan tinggi secara otomatis */
+  border-radius: 8px; /* Tambahkan sudut melengkung pada gambar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+
+.sosmed {
+  /* Menerapkan gaya pada container sosial media */
+  margin: 20px; /* Atur margin sesuai kebutuhan */
+  text-align: center; /* Pusatkan elemen di dalam container */
+}
+
+.sosmed ul {
+  list-style: none; /* Menghilangkan tanda bullet list */
+  padding: 0; /* Menghilangkan padding default untuk daftar */
+  margin: 0; /* Hilangkan margin daftar */
+}
+
+.sosmed li {
+  display: inline-block; /* Menampilkan item list dalam satu baris */
+  margin-right: 10px; /* Atur margin antara setiap item list */
+}
+
+.sosmed a {
+  display: block; /* Membuat tautan menutupi gambar sepenuhnya */
+}
+
+.sosmed img {
+  width: 100px; /* Atur lebar gambar */
+  height: 100px; /* Atur tinggi gambar */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+}
+
+
